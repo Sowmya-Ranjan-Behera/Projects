@@ -27,7 +27,7 @@
     text-align: justify;
 }
 .image{
-    margin-top: 10px;
+    margin-top: 10px    ;
     height: 200px;
     width: 165px;
     border-radius: 15px;
@@ -35,6 +35,9 @@
 }
 .description{
     padding:4px ;
+}
+.description::first-line{
+    font-weight: bold;
 }
 .description p{
     margin-top: 4px;
