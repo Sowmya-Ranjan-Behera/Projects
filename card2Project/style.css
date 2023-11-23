@@ -21,6 +21,7 @@
     background-color: #f8f8f8;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0px 0px 10px #354649;
 }
 .text{
     padding: 10px;
@@ -43,7 +44,8 @@
     background-color: #354649;
     border-radius: 10px;
     color: white;
-    
+    box-shadow: 0px 0px 5px #143A52;
+
 }
 .logo{
     width: 60%;
@@ -73,6 +75,7 @@ ul{
     width: 65%;
     border-radius: 20px;
     cursor: pointer;
+    box-shadow: 0px 0px 5px #6C7A89;
 }
 #cancel{
     padding: 2px;
