@@ -16,7 +16,8 @@
     width: 240px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap:10px;   
     flex-direction: column;
     background-color: #f8f8f8;
     border-radius: 20px;
@@ -82,4 +83,21 @@ ul{
     margin-bottom: 10px;
     text-decoration: none;
     color: #143A52;
+}
+@media (max-width:400px){
+    
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+    .card{
+        height: 450px;
+        overflow: auto;
+    }
 }
